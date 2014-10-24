@@ -1,0 +1,25 @@
+#header{width: 100%; height: 60px; background-image: url("../images/bgimg.jpg");}
+#vote_div{width: 50%; height: 100%; float: left;}
+#vote_div a{display: inline-block; width: 160px; height: 100%; float: left; background-image: url("../images/button_bg.png"); background-repeat: no-repeat; background-position: left bottom, right top, 0px 0px, 0px 0px; font-size: 20px; text-decoration: none; text-align: center; line-height: 60px; cursor: pointer;  -webkit-transition: background-position 1s; 
+-moz-transition: background-position 1s;
+transition: background-position 1s; 
+-moz-box-shadow: 0 0 1px #fff inset;
+-webkit-box-shadow: 0 0 1px #fff inset;
+letter-spacing: 10px;}
+a#vote{background-color: #BF4CE5; color: rgb(15, 75, 109) !important;}
+a#vote:hover{background-position: left top, right bottom, 0px 0px, 0px 0px; background-color: #BF6CD8}
+a#vote:active{bottom: -1px;}
+
+#action{width: 320px; height: 100%; float: right;}
+#action a{display: inline-block; width: 160px; height: 100%; float: left; background-image: url("../images/button_bg.png"); background-repeat: no-repeat; background-position: left bottom, right top, 0px 0px, 0px 0px; font-size: 20px; text-decoration: none; text-align: center; line-height: 60px; cursor: pointer;  -webkit-transition: background-position 1s; 
+-moz-transition: background-position 1s;
+transition: background-position 1s; 
+-moz-box-shadow: 0 0 1px #fff inset;
+-webkit-box-shadow: 0 0 1px #fff inset;
+letter-spacing: 10px;}
+a#login{background-color: rgb(72, 181, 242); color: rgb(15, 75, 109) !important;}
+a#register{background-color: rgb(121, 190, 30); color: rgb(52, 89, 3) !important;}
+a#login:hover{background-color: rgb(99, 199, 254);}
+a#register:hover{background-color: rgb(137, 210, 40);}
+#action a:hover{background-position: left top, right bottom, 0px 0px, 0px 0px;}
+#action a:active{bottom: -1px;}

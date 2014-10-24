@@ -1,0 +1,43 @@
+@-webkit-keyframes bluePulse {
+  from { background-color:rgb(72, 181, 242); -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: rgb(100, 181, 255); -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: rgb(72, 255, 242); -webkit-box-shadow: 0 0 9px #333; }
+}
+		@-webkit-keyframes greenPulse {
+  from { background-color:rgb(137, 210, 40); -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: rgb(137, 210, 80); -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: rgb(255, 210, 40); -webkit-box-shadow: 0 0 9px #333; }
+}
+		form{background-color: #FFF; width: 600px; height: 400px; left: 0;top: 0;}
+		div#form_left{background-color: rgb(137, 210, 40); width: 10%; height: 100%; float: left;}
+		div#form_right{background-color: rgb(137, 210, 40); width: 15%; height: 100%; float: right;}
+		div#form_middle{background-color: rgb(255,255,255); width: 75%; height: 100%; float: left;}
+		p.welcome{background-color: rgb(72, 181, 242); width: 100%; height: 60px; font-size: 20px; line-height: 60px; text-align: center; margin-top: 0px;}
+		#form_middle p.content_p{background-color: #FFF; width: 100%; height: 40px; font-size: 20px; margin-top: 10px;}
+		#form_middle p label{width: 116px; height: 100%; float: left; line-height: 40px; text-align: right;}
+		#form_middle p input{width: 250px; height: 30px; margin-top: 3px; float: left; line-height: 30px; outline-color: rgb(137, 210, 40); outline-width: 2px; font-size: 20px; border: 1px solid #999;}
+		input.content:hover{background-color: #FADD5B;}
+		p#submit_p{width: 100%; height: 60px;}
+		#form_middle p.first{margin-top: 30px;}
+		button#submit{width: 60px; height: 60px; border-radius: 60px;  margin-left: 200px; margin-top: 30px;   cursor: pointer; font-size: 20px; line-height: 20px;}
+#register_form button#submit {
+	border: 3px solid rgb(72, 181, 242);
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}		
+#login_form button#submit {
+	border: 3px solid rgb(137, 210, 40);
+  -webkit-animation-name: bluePulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}		
+		#form_right .connection{width: 60px; height: 60px; margin: 40px auto; border-radius: 80px;
+				font-size: 20px; text-align: center; line-height: 60px; cursor: pointer; }
+		#login_form form div#form_left, #login_form form div#form_right{background-color: rgb(72, 181, 242);}
+		#login_form form div#form_middle p.welcome{background-color: rgb(137, 210, 40);}
+		#login_form form #form_right .connection{background-color: #1AD3D6 ;  border: 1px solid #9FF806;}
+
+		#register_form form div#form_left, #register_form form div#form_right{background-color: rgb(137, 210, 40);}
+		#register_form form div#form_middle p.welcome{background-color: rgb(72, 181, 242);}
+		#register_form form #form_right .connection{background-color: #9FF806;  border: 1px solid rgb(72, 181, 242);}
